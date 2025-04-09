@@ -1,0 +1,9 @@
+{
+	"name": "synpassalesdataQAT",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "48fe6d5c-30a6-4f7b-9acc-8cfd482dabbb",
+		"tenantId": "9c804b78-43b3-45fa-a641-2e8f6f2167b6"
+	}
+}
