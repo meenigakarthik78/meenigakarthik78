@@ -1,0 +1,32 @@
+{
+	"name": "retail_tr",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-04-08T15:24:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						3
+					],
+					"hours": [
+						21
+					]
+				}
+			}
+		}
+	}
+}
